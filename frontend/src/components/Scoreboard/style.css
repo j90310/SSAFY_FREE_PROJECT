@@ -1,0 +1,228 @@
+/* scoreboard style */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.scoreboard-block {
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+    /* 드래그 금지 */
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+.player {
+    /* border: solid white 1px; */
+    /* width: 60vw; */
+    height: 35vh;
+}
+
+.playerOne {
+    color: white;
+    background-color: rgb(75, 75, 255);
+}
+
+.playerTwo {
+    color: black;
+    background-color: white;
+}
+
+.playerInfo {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    /* border: solid white 1px; */
+    padding: 2vh 0 1vh 1vw;
+    height: 17vh;
+}
+
+.playerInfo-name {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    height: 8vh;
+    font-size: 7vmin;
+    font-weight: bold;
+    cursor: default;
+}
+
+.Small {
+    font-size: 6vmin;
+}
+
+.playerInfo-team {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    height: 5vh;
+    font-size: 3vmin;
+    color: gray;
+    cursor: default;
+}
+
+.playerInfo-button {
+    align-items: center;
+    /* border: solid white 1px; */
+    /* padding-left: 1vw;
+    padding-top: 2vh; */
+    height: 18vh;
+    display: flex;
+}
+
+.playerInfo-button tr td {
+    border:1px solid black;
+    justify-content: center;
+    vertical-align: center;
+    cursor: pointer;
+}
+
+.playerInfo-button td > span {
+    width:100%; 
+    height:100%; 
+    display: flex; 
+    justify-content: center; 
+    align-content: center; 
+    align-items: center; 
+    font-size: 5vmin
+}
+
+.playerScore {
+    /* background-color: red; */
+    /* border: solid white 1px; */
+    display: inline-flex;
+    justify-content: right;
+    vertical-align: center;
+    cursor: default;
+}
+
+.playerScore-pa {
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.playerScore-tag {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -1.3vh;
+    /* border: solid white 1px; */
+    display: flex;
+    width: 6vw;
+    height: 4.5vh;
+    font-size: 0.5vmin;
+}
+
+.playerScore-info {
+    justify-content: center;
+    align-items: center;
+    /* border: solid white 1px; */
+    display: flex;
+    font-weight: bold;
+    width: 6vw;
+    height: 13vh;
+    font-size: 11vmin;
+}
+
+.playerScore-score {
+    justify-content: center;
+    align-items: center;
+    /* border: solid white 1px; */
+    font-weight: bold;
+    display: flex;
+    width: 18vw;
+    height: 35vh;
+    font-size: 25vmin;
+}
+
+.gameInfo {
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: solid white 1px; */
+}
+
+.gameInfo-button {
+    /* border: solid white 1px; */
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    width: 60vw;
+    height: 30vh;
+    font-size: 1vmin;
+}
+
+.gameInfo-time {
+    /* border: solid white 1px; */
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    color: #ED8B08;
+    font-weight: bold;
+    width: 40vw;
+    height: 30vh;
+    margin-right: 1vw;
+    font-size: 15vw;
+    cursor: pointer;
+}
+
+.gameInfo-matchInfo {
+    background-color: black;
+    border:1px solid black;
+    justify-content: center; 
+    align-content: start; 
+    /* align-items: center;  */
+    display: flex;
+}
+
+.gameInfo-button tr td {
+    border:1px solid black;
+    justify-content: center;
+    vertical-align: center;
+    cursor: pointer;
+}
+
+.gameInfo-button td > span {
+    width:100%; 
+    height:100%; 
+    display: flex; 
+    justify-content: center; 
+    align-content: center; 
+    align-items: center; 
+    font-size: 3vmin
+}
+
+.modal {
+    /* 모달창 크기 */
+    width: 300px;
+    height: 200px;
+
+    /* 최상단 위치 */
+    z-index: 999;
+  
+    /* 중앙 배치 */
+    /* top, bottom, left, right 는 브라우저 기준으로 작동한다. */
+    /* translate는 본인의 크기 기준으로 작동한다. */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* 모달창 디자인 */
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.modal-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

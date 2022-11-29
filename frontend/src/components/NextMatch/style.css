@@ -1,0 +1,130 @@
+/*Next Match*/
+.fag-current-match-area {
+  position: relative;
+  background: #0d0e1b none repeat scroll 0 0;
+  z-index: 1
+}
+
+.match-box-inn {
+  width: 90%;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+.gamer-image {
+  padding: 30px;
+  background: #080811 none repeat scroll 0 0;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s
+}
+
+.match-box-left .gamer-image {
+  -webkit-transform: perspective(600px) rotateY(30deg);
+          transform: perspective(600px) rotateY(30deg);
+}
+
+.match-box-right .gamer-image {
+  -webkit-transform: perspective(600px) rotateY(-30deg);
+          transform: perspective(600px) rotateY(-30deg);
+}
+
+.matchcountdown p{
+  display: none
+}
+
+.matchcountdown ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.matchcountdown li {
+  min-width: 75px;
+  text-align: center;
+  padding: 10px;
+  background: #080811 none repeat scroll 0 0;
+  margin: 0 5px;
+  position: relative;
+  font-size: 14px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.matchcountdown li span {
+  display: block;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  font-family: 'Rajdhani', sans-serif;
+  color: #ff7a21;
+}
+
+.matchcountdown li:after {
+  position: absolute;
+  content: ":";
+  top: 29%;
+  right: -11px;
+  font-size: 45px;
+}
+
+.matchcountdown li:last-child:after {
+  display: none
+}
+
+.match-vs {
+  width: 30%;
+  margin: 35px auto 0;
+}
+
+.match-action {
+  margin-top: 30px;
+}
+
+.match-action a {
+  padding: 10px 45px;
+  background: transparent
+}
+
+.match-action a:hover {
+  background: #ff7a21 none repeat scroll 0 0
+}
+
+/*Responsive*/
+@media(max-width:767px){
+  .matchcountdown li{
+    min-width: 70px
+  }
+  .matchcountdown li span{
+      font-size: 22px
+  }
+  .match-box-middle {
+      margin: 30px 0;
+  }
+  .match-box-left .gamer-image, .match-box-right .gamer-image{
+      -webkit-transform: perspective(600px) rotateY(0deg);
+              transform: perspective(600px) rotateY(0deg)
+  }
+  .match-vs {
+      width: 22%;
+      margin: 22px auto 0;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  .match-box-inn{
+    width: 100%
+  }
+  .matchcountdown li{
+      min-width: 65px
+  }
+  .matchcountdown li span{
+      font-size: 28px
+  }
+}

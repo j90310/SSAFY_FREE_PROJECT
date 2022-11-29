@@ -1,0 +1,194 @@
+/*Checkout Page CSS*/
+
+.checkout-left-box h3 {
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+}
+
+.checkout-left-box form {
+  padding: 15px 30px 30px 30px;
+  background: #080811 none repeat scroll 0 0;
+  border: 2px solid #ff7a21;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+.checkout-left-box form .checkout-form {
+  margin-top: 30px;
+}
+
+.checkout-left-box form label {
+  background-color: #ff7a21;
+  color: #fff;
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 1.5vh;
+  border-radius: 1px;
+}
+
+.checkout-left-box form input {
+  width: 100%;
+  padding: 5px 15px;
+  height: 50px;
+  border: medium none;
+  border-radius: 3px;
+  font-size: 15px;
+  background: #0d0e1b;
+  -webkit-transition: all 0.4s ease 0s;
+  border-bottom: 1px solid #ff7a21;
+  transition: all 0.4s ease 0s;
+  color: #fff;
+}
+
+.checkout-left-box form textarea {
+  width: 100%;
+  padding: 5px 15px;
+  height: 140px;
+  border: medium none;
+  border-radius: 3px;
+  font-size: 15px;
+  background: #0d0e1b;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  color: #fff;
+  border: 1px solid #ff7a21;
+}
+.checkout-left-box form input:-moz-placeholder {
+  color: white;
+}
+
+.checkout-left-box form input::-moz-placeholder {
+  color: white;
+}
+
+.checkout-left-box form input:-ms-input-placeholder {
+  color: white;
+}
+
+/* 크롬용 */
+.checkout-left-box form input::-webkit-input-placeholder {
+  /* color: black; */
+  color: white;
+}
+.checkout-left-box form textarea:-moz-placeholder {
+  color: white;
+}
+
+.checkout-left-box form textarea::-moz-placeholder {
+  color: #fff;
+}
+
+.checkout-left-box form textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+.checkout-left-box form textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.fag-payment .payment {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.fag-payment .payment input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.fag-payment .payment label {
+  display: inline-block;
+  position: relative;
+  padding: 0 0 0 30px;
+  margin: 10px auto;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.fag-payment .payment .check {
+  display: block;
+  position: absolute;
+  border: 3px solid #aaaaaa;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  top: 14px;
+  left: 0;
+  z-index: 5;
+  transition: border 0.25s linear;
+  -webkit-transition: border 0.25s linear;
+}
+
+.fag-payment .payment .check:before {
+  display: block;
+  position: absolute;
+  content: "";
+  border-radius: 100%;
+  height: 8px;
+  width: 8px;
+  top: 3px;
+  left: 3px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+
+input[type="radio"]:checked ~ .check {
+  border: 3px solid #ff7a21;
+}
+
+input[type="radio"]:checked ~ .check:before {
+  background: #ff7a21;
+}
+
+input[type="radio"]:checked ~ label {
+  color: #ff7a21;
+}
+
+.payment img {
+  float: right;
+  margin-top: 15px;
+}
+
+.payment p {
+  font-size: 15px;
+}
+
+.booking-right .action-btn {
+  text-align: right;
+  margin-top: 30px;
+}
+
+form input::file-selector-button {
+  display: none;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input-left {
+  width: 80%;
+}
+
+.input-right {
+  width: 20%;
+}

@@ -1,0 +1,49 @@
+/*Pre Order CSS*/
+.fag-breadcrumb-area {
+  padding: 170px 0 100px;
+  background: url(../../img/breadcrumb_bg_royale.jpg) no-repeat scroll center center/cover
+}
+
+.breadcromb-box {
+  text-align: center;
+}
+
+.breadcromb-box {
+  text-align: center;
+}
+
+.breadcromb-box h3 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  margin-bottom: 20px
+}
+
+.breadcromb-box li {
+  display: inline-block;
+  margin: 0 2px;
+  color: #fff !important;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.breadcromb-box li a {
+  color: #fff
+}
+
+.breadcromb-box li svg {
+  color: #ff7a21;
+  margin-right: 5px;
+  position: relative;
+  top: -3px;
+}
+
+/*Responsive*/
+@media(max-width:991px){
+  .breadcromb-box h3{
+    font-size: 40px;
+    margin-bottom: 10px
+}
+}

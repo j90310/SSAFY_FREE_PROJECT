@@ -1,0 +1,69 @@
+/*Contact Page CSS*/
+
+.fag-contact-details-area{
+    background: #080811 none repeat scroll 0 0;
+    padding-top: 70px
+}
+.single-contact-box {
+	background:#0d0e1b none repeat scroll 0 0;
+	padding: 30px;
+	text-align: center;
+	border-radius: 18px;
+    margin-top: 30px
+}
+.contact-icon {
+	font-size: 24px;
+	color: #ff7a21;
+}
+.contact-head h4 {
+	color: #fff;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.contact-text p{
+    margin: 0
+}
+
+.contact-form-inn {
+	width: 70%;
+	margin: 0 auto;
+}
+.contact-form-inn form {
+	padding: 0 30px 30px 30px;
+	background: #080811 none repeat scroll 0 0;
+	border-radius: 30px;
+}
+.contact-form-inn form input {
+	width: 100%;
+	padding: 5px 15px;
+	height: 50px;
+	border: medium none;
+	border-radius: 3px;
+	font-size: 15px;
+	background: #0d0e1b;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	color: #fff;
+}
+.contact-form-inn form textarea {
+	width: 100%;
+	padding: 5px 15px;
+	height: 140px;
+	border: medium none;
+	border-radius: 3px;
+	font-size: 15px;
+	background: #0d0e1b;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	color: #fff;
+}
+.contact-form-inn form button{
+    width: auto;
+    display: inline-block
+}
+.contact-form-inn form .form-action{
+    text-align: center
+}
+.fag-contact-details-area{
+	padding-top: 70px !important;
+}

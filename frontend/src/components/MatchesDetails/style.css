@@ -1,0 +1,39 @@
+/*Match Single Page CSS*/
+.match-details .match-box-left,
+.match-details .match-box-right {
+    max-width: 140px;
+}
+
+.match-details .matchcountdown h3 {
+    font-size: 44px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.match-details-block {
+    margin-top: 30px;
+}
+
+.match-details-block h3 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.match-details-block blockquote {
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 4px solid #ff7a21;
+    color: #c4c4c4;
+    font-style: italic;
+}
+
+.match-details-block blockquote strong {
+    color: #fff
+}
+
+.match-details-block .match-box-action {
+    margin-left: 0;
+    margin-top: 30px
+}

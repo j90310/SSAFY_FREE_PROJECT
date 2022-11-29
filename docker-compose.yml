@@ -1,0 +1,45 @@
+version: "3.7"
+
+services:
+  frontend:
+    image: frontend-react
+    build:
+      context: frontend/
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /home/ubuntu/docker-volume/ssl:/var/www/html
+    container_name: "frontend"
+  
+  db:
+    image: mysql:8.0.29
+    environment:
+      MYSQL_USER: "${MYSQL_USER}"
+      MYSQL_DATABASE: "${MYSQL_DATABASE}"
+      MYSQL_PASSWORD: "${MYSQL_PASSWORD}"
+      MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD}"
+      TZ: Asia/Seoul
+    volumes:
+      - "/home/ubuntu/db_data:/var/lib/mysql"
+    ports:
+      - "3306:3306"
+    container_name: mysql
+
+  backend:
+    build:
+      context: ./backend/royale
+      dockerfile: Dockerfile
+    image: backend-spring
+    volumes:
+      - /home/ubuntu/docker-volume/jenkins/workspace/royale/backend/royale/src/main/resources/img:/img
+    ports:
+      - "8080:8080"
+    container_name: backend
+    restart: always
+    environment:
+    - TZ=Asia/Seoul
+    depends_on:
+      - db
+ 

@@ -1,0 +1,84 @@
+/*Promo CSS*/
+.fag-promo-area {
+  position: relative;
+}
+
+.fag-promo-area:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../img/broken_glass.png) no-repeat;
+  opacity: 0.4;
+}
+
+.promo-info {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+.promo-iamge img{
+  width: 100%
+}
+.promo-box h3 {
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.promo-box p {
+  font-size: 20px;
+  color: #fff;
+  line-height: 30px;
+}
+
+/*Responsive*/
+@media(max-width:767px){
+  .fag-promo-area {
+    min-height: 500px;
+  }
+  .promo-iamge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  }
+  .promo-iamge img {
+    width: 100%;
+    height: 100%;
+    font-family: "object-fit: cover;";
+    z-index: -1;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .promo-box {
+    text-align: center;
+  }
+  .promo-box h3 {
+    font-size: 40px;
+  }
+  .promo-box p {
+    font-size: 18px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  .promo-box h3{
+    font-size: 42px
+}
+.promo-box p{
+    font-size: 18px
+}
+}

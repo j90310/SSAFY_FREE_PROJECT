@@ -1,0 +1,64 @@
+/*Pre Order CSS*/
+.fag-preorder-area {
+  position: relative;
+  background: url(../../img/bg.jpg) no-repeat fixed 0 0 / cover;
+  z-index: 1;
+  padding: 100px 0;
+  height: 540px;
+}
+
+.fag-preorder-area:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(8, 3, 37, 0.54) none repeat scroll 0 0;
+  z-index: -1;
+}
+
+.preorder-inn {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.preorder-box h3 {
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.preorder-box h3 span {
+  color: #fff;
+  display: block;
+  font-size: 35px;
+}
+
+.preorder-box p {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 15px;
+  letter-spacing: 0.75px;
+}
+
+.preorder-box a {
+  margin-top: 30px;
+  padding: 10px 40px;
+}
+
+/*Responsive*/
+
+@media (max-width: 767px) {
+  .preorder-box h3 span,
+  .preorder-box h3 {
+    font-size: 34px;
+  }
+}

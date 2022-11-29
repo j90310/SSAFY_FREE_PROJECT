@@ -1,0 +1,73 @@
+/*Team CSS*/
+
+.fag-team-area {
+  position: relative;
+  padding-bottom: 70px
+}
+
+.team-item {
+  background: #080811 none repeat scroll 0 0;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px
+}
+.team-image img {
+width: 100%;
+}
+
+.team-details {
+  margin-top: 20px;
+}
+
+.team-details h3 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 26px;
+}
+
+.team-details span {
+  font-size: 16px;
+  color: #999;
+  margin-top: 5px;
+}
+
+.team-social ul {
+  margin-top: 10px;
+  text-align: center
+}
+
+.team-social ul li {
+  display: inline-block;
+  margin: 0 2px
+}
+
+.team-social ul li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 15px;
+  background: url(../../img/social_bg_hover.png);
+  color: #ff7a21;
+
+}
+
+.team-social ul li a:hover {
+  background: url(../../img/social_bg.png);
+  color: #fff
+}
+
+/*Responsive*/
+@media(width:1024px){
+  .team-item {
+    padding: 20px;
+  }
+  .post-info li a {
+    font-size: 13px;
+}
+.post-info li {
+  margin-right: 10px;
+}
+}

@@ -1,0 +1,265 @@
+/*Contact Page CSS*/
+.product-tab li.nav-item {
+	margin-right: 15px;
+}
+
+.product-tab {
+	margin-top: 30px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.product-tab .nav-link {
+	background: transparent;
+	border: none !important;
+	padding: 10px 10px 10px 10px;
+	border-radius: 0 !important;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.product-tab .nav-link:after {
+	position: absolute;
+	right: auto;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 0;
+	height: 2px;
+	content: '';
+	-webkit-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+	background: #ff7a21;
+}
+
+.product-tab .nav-link.active:after {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	color: #ff7a21;
+	height: 2px;
+	content: '';
+	-webkit-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+	background: #ff7a21;
+}
+
+.product-tab .nav-item {
+	margin-right: 15px;
+}
+
+.product-tab {
+	border-bottom: 1px solid #333 !important;
+}
+
+.product-tab .nav-link.active {
+	color: #ff7a21 !important;
+	background: transparent !important;
+	position: relative;
+}
+
+.product-tab .nav-link:hover {
+	color: #fff !important;
+}
+
+.button-area {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding: 10px 10px;
+}
+
+.table-style {
+	border: 0px solid;
+	font-size: 30px;
+	padding: 10px 10px;
+	margin: 0 auto;
+	background: #171717;
+	/* display: flex;
+	justify-content: center;
+	flex-direction:column; */
+}
+
+.container-style {
+	background: #0d0e1b none repeat scroll 0 0;
+	padding: 25px 25px;
+	margin: 0 auto;
+	width: 1000px !important;
+	border-radius: 10px;
+}
+
+.container-style-last {
+	background: #0d0e1b none repeat scroll 0 0;
+	padding: 25px 25px;
+	margin: 0 auto;
+	width: 800px !important;
+	border-radius: 10px;
+}
+
+.th-style {
+	border: 2px solid;
+	padding: 5px 5px;
+	text-align: center;
+	background-color: #0d0e1b;
+}
+
+.th-subject-style {
+	border: 2px solid;
+	padding: 30px 40px;
+	text-align: center;
+	background-color: #ff7a21;
+}
+
+.input-style {
+	width: 700px;
+	height: 66px;
+	font-size: 1.77rem;
+	line-height: 1.5;
+	background: #171717;
+	color: white;
+}
+
+.application-style {
+	width: 666px;
+	height: 55px;
+	font-size: 1.77rem;
+	line-height: 1.5;
+	background: #525252;
+	color: white;
+	border-radius: 10px;
+}
+
+.smallbutton-style {
+	width: 55px;
+	height: 55px;
+	font-size: 1.77rem;
+	line-height: 1.5;
+	background: #0d0e1b;
+	color: white;
+	border-radius: 10px;
+}
+
+.application-summary-style {
+	width: 666px;
+	height: 300px;
+	font-size: 1.77rem;
+	line-height: 1.5;
+	background: #525252;
+	color: white;
+	border-radius: 10px;
+}
+
+.button-style {
+	width: 200px;
+	height: 66px;
+	font-size: 1.77rem;
+	line-height: 1.5;
+	background: #171717;
+	color: white;
+}
+
+.button-style-second {
+	width: 200px;
+	height: 66px;
+	font-size: 1.77rem;
+	line-height: 1.5;
+	background: orange;
+	color: white;
+}
+
+.button-style-third {
+	width: 200px;
+	height: 66px;
+	font-size: 1.77rem;
+	line-height: 1.5;
+	background: gray;
+	color: white;
+}
+
+.label-style {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fag-contact-details-area {
+	background: #0d0e1b none repeat scroll 0 0;
+	padding: 25px 25px;
+	margin: 0 auto;
+}
+
+.single-contact-box {
+	background: #171717 none repeat scroll 0 0;
+	padding: 30px;
+	text-align: center;
+	border-radius: 18px;
+	margin-top: 30px
+}
+
+.contact-icon {
+	font-size: 24px;
+	color: #ff7a21;
+}
+
+.contact-head h4 {
+	color: #fff;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+
+.contact-text p {
+	margin: 0
+}
+
+.contact-form-inn {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.contact-form-inn form {
+	padding: 0 30px 30px 30px;
+	background: #171717 none repeat scroll 0 0;
+	border-radius: 30px;
+}
+
+.contact-form-inn form input {
+	width: 100%;
+	padding: 5px 15px;
+	height: 50px;
+	border: medium none;
+	border-radius: 3px;
+	font-size: 15px;
+	background: #171717;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	color: #fff;
+}
+
+.contact-form-inn form textarea {
+	width: 100%;
+	padding: 5px 15px;
+	height: 140px;
+	border: medium none;
+	border-radius: 3px;
+	font-size: 15px;
+	background: #171717;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	color: #fff;
+}
+
+.contact-form-inn form button {
+	width: auto;
+	display: inline-block
+}
+
+.contact-form-inn form .form-action {
+	text-align: center
+}

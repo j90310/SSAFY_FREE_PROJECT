@@ -1,0 +1,601 @@
+/*Game Single Page CSS*/
+.details-banner-thumb {
+  position: relative;
+}
+
+.details-banner-thumb img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px
+}
+
+.details-banner-action {
+  text-align: right;
+  margin: 30px 0 0;
+}
+
+.details-banner-info h3 {
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 34px;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+}
+
+.details-banner-info h3 span {
+  position: absolute;
+  font-size: 16px;
+  margin-left: 10px;
+  color: #eee;
+  width: 60px;
+  padding: 6px 10px;
+}
+
+.details-banner-info h3:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 2px;
+  bottom: -8px;
+  background: #e48632 none repeat scroll 0 0;
+}
+
+.details-genre {
+  color: #eee;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.details-time-left {
+  color: #eee;
+  letter-spacing: .5px;
+}
+
+.details-time-left svg {
+  margin-right: 5px;
+  color: #ec7532;
+}
+
+.movie-details-page-box > ul > li {
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.movie-details-page-box > ul > li > span {
+  width: 15%;
+  display: inline-block;
+  color: #555;
+}
+
+.movie-details-page-box > ul > li > small {
+  color: #ec7532;
+}
+
+.movie-details-page-box ul li:last-child {
+  color: #ec7532;
+}
+
+.tab-body p {
+  margin: 0 0 10px
+}
+
+.tab-body p:last-child {
+  margin: 0
+}
+
+.tablet-action {
+  display: none
+}
+
+.tab-movies-details {
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.single-cast-slider {
+  text-align: center;
+}
+
+.single-cast-slider img {
+  border-radius: 50%;
+  width: 100px !important;
+  margin: 0 auto;
+}
+
+.cast-info {
+  margin-top: 10px;
+}
+
+.cast-info p {
+  color: #333;
+  line-height: normal;
+}
+
+.cast-info p span {
+  display: block;
+  color: #777;
+}
+
+.cast-slider {
+  margin-bottom: 50px;
+}
+
+.cast-slider .owl-nav.disabled {
+  display: block !important;
+  position: absolute;
+  bottom: -45px;
+  right: 0;
+}
+
+.cast-slider .owl-nav.disabled > button {
+  color: #ec7532;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  margin: 0 3px;
+  font-size: 17px;
+}
+
+.cast-slider .owl-nav.disabled > button:last-child {
+  margin-right: 0
+}
+
+.single-reviews {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.reviews-autor {
+  display: block;
+  position: relative;
+  padding-left: 55px;
+  margin-bottom: 15px;
+  padding-right: 60px;
+}
+
+.reviews-avatar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.reviews-title {
+  display: block !important;
+  font-size: 16px;
+  color: #333 !important;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  width: 100% !important;
+  text-transform: capitalize
+}
+
+.reviews-date {
+  display: block;
+  font-size: 13px;
+  color: #777;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.reviews-date strong {
+  color: #333;
+}
+
+.reviews-rating {
+  position: absolute;
+  right: 30px;
+  top: 8px;
+  line-height: 16px;
+  display: inline-block !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #fbbd61, #ec7532);
+  background-image: linear-gradient(to right, #fbbd61, #ec7532);
+  color: #fff !important;
+  text-align: center;
+  border: medium none;
+  width: auto !important;
+}
+
+.reviews-text {
+  display: block;
+  margin: 0;
+}
+
+.reviews .form {
+  width: 65%;
+}
+
+.form-item {
+  margin-top: 10px;
+}
+
+.review_rating p {
+  color: #111;
+  text-transform: capitalize;
+}
+
+.reviews .form input {
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+
+.reviews .form textarea {
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+
+.reviews .form button {
+  background: #ec7532;
+  border: medium none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  padding: 10px 30px;
+  text-transform: capitalize;
+}
+
+.form-item:last-child {
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+
+.review_rating {
+  border: none;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.review_rating > input {
+  display: none;
+}
+
+.review_rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.review_rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.review_rating > label {
+  color: #c2c2c2;
+  float: right;
+}
+
+.review_rating > input:checked ~ label,
+.review_rating:not(:checked) > label:hover,
+.review_rating:not(:checked) > label:hover ~ label {
+  color: #FFD700;
+}
+
+.review_rating > input:checked + label:hover,
+.review_rating > input:checked ~ label:hover,
+.review_rating > label:hover ~ input:checked ~ label,
+.review_rating > input:checked ~ label:hover ~ label {
+  color: #FFED85;
+}
+
+.single_rating {
+  line-height: 16px;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  border: medium none;
+  background: #E48632;
+}
+
+.details-banner-action a.fag-btn {
+  background: transparent;
+  padding: 10px 30px;
+}
+
+.details-banner-action a.fag-btn:hover {
+  background: #ff7a21 none repeat scroll 0 0
+}
+
+.single_game_price {
+  text-align: right
+}
+
+.single_game_price h4 {
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+
+.single_game_price p {
+  font-size: 18px !important;
+}
+
+.single_game_price del {
+  color: #b6b3b3;
+  margin-right: 10px;
+}
+
+.single_game_meta {
+  margin-top: 15px
+}
+
+.games-details-page-box > ul > li {
+  margin-bottom: 5px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.games-details-page-box > ul > li:after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background: #ff7a21;
+  border-radius: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.tab-body {
+  margin-top: 20px;
+}
+.tv-panel-list {
+  margin-top: 30px;
+}
+.tv-tab .nav-link{
+  background: transparent;
+  border: none !important;
+  padding: 0 0 2px 0;
+  border-radius: 0 !important;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 400;
+  color: #fff;
+}
+.tv-tab .nav-link:after {
+  position: absolute;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 0;
+  height: 2px;
+  content: '';
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  background: #ff7a21;
+}
+.tv-tab .nav-link.active:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  color: #ff7a21;
+  height: 2px;
+  content: '';
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  background: #ff7a21;
+}
+.tv-tab .nav-item {
+  margin-right: 15px;
+}
+.tv-tab{
+  border-bottom: 1px solid #333 !important;
+}
+.tv-tab .nav-link.active {
+  color: #ff7a21 !important;
+  background: transparent !important;
+  position: relative;
+}
+.tv-tab .nav-link:hover{
+  color: #fff !important;
+}
+.features-game {
+  background: #080811 none repeat scroll 0 0;
+  padding: 50px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.feature-image {
+  width: 80px;
+  margin: 0 auto 15px;
+}
+
+.feature-text h3 {
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.single-comment-box {
+  margin-bottom: 10px;
+  position: relative;
+  -webkit-transition: all 300ms ease 0s;
+  transition: all 300ms ease 0s;
+}
+
+.single-comment-box:last-child {
+  margin-bottom: 0
+}
+
+.single-comment-box.comment_reply {
+  padding-left: 83px;
+}
+
+.main-comment {
+  font-size: 15px;
+  padding: 0 0 0 90px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.author-image {
+  border-radius: 50%;
+  left: 0;
+  margin-bottom: 20px;
+  position: absolute;
+}
+
+.author-image img {
+  display: block;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.comment-text {
+  padding: 20px;
+  background: #080811 none repeat scroll 0 0;
+  border-radius: 30px;
+  position: relative
+}
+
+.comment-info:after {
+  content: '';
+  height: 0;
+  width: 0;
+  position: absolute;
+  display: block;
+  border-style: solid;
+  top: 25px;
+  border-width: 11px 13px 11px 0;
+  border-color: transparent #080811;
+  left: -12px;
+}
+
+.comment-text-inner {
+  padding: 10px;
+}
+
+.comment-info h4 {
+  display: inline-block;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.comment-info ul {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.comment-info ul li {
+  display: inline-block;
+  color: #ffa11a;
+}
+
+.comment-info p {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.fag-leave-comment {
+  margin-top: 50px;
+}
+
+.fag-leave-comment form {
+  padding: 0 30px 30px 30px;
+  background: #080811 none repeat scroll 0 0;
+  border-radius: 30px;
+}
+
+.fag-leave-comment form input {
+  width: 100%;
+  padding: 5px 15px;
+  height: 50px;
+  border: medium none;
+  border-radius: 3px;
+  font-size: 15px;
+  background: #0d0e1b;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  color: #fff
+}
+
+.fag-leave-comment form textarea {
+  width: 100%;
+  padding: 5px 15px;
+  height: 140px;
+  border: medium none;
+  border-radius: 3px;
+  font-size: 15px;
+  background: #0d0e1b;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  color: #fff
+}
+
+.fag-leave-comment form textarea:-moz-placeholder {
+  color: #fff;
+}
+
+.fag-leave-comment form textarea::-moz-placeholder {
+  color: #fff;
+}
+
+.fag-leave-comment form textarea:-ms-textarea-placeholder {
+  color: #fff;
+}
+
+.fag-leave-comment form textarea::-webkit-textarea-placeholder {
+  color: #fff;
+}
+
+.fag-leave-comment form input:-moz-placeholder {
+  color: #fff;
+}
+
+.fag-leave-comment form input::-moz-placeholder {
+  color: #fff;
+}
+
+.fag-leave-comment form input:-ms-textarea-placeholder {
+  color: #fff;
+}
+
+.fag-leave-comment form input::-webkit-textarea-placeholder {
+  color: #fff;
+}
+
+.fag-leave-comment form .fag-btn {
+  margin-top: 15px;
+  position: relative;
+  top: 0;
+  width: auto
+}
+
+.comment-field {
+  margin-top: 30px;
+}
